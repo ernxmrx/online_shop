@@ -140,4 +140,4 @@ docker tag image-name:image-tag dockerhubuser/image-name:image-tag [Tagged the d
 docker push dockerhubuser/image-name:image-tag
 ```
 
-Note: Plese refer the project-artifacts word document file to check the artifacts.
+Note: Please refer the project-artifacts word document file to check the artifacts.
