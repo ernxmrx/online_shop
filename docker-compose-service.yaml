@@ -1,0 +1,17 @@
+services:
+
+  app:
+    image: online_com_site:latest
+    container_name: online-com
+    networks:
+      - online_ecom_net
+    volumes:
+      - online_ecom_new:/app/logs
+    ports:
+      - "3000:3000"
+
+volumes:
+  online_ecom_new: {}
+networks:
+  online_ecom_net:
+    driver: bridge
